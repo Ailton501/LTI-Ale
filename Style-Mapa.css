@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .banner{
+    background-color:#EAE3D8;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 40px;
+    font-family: 'Earth Orbiter Title';
+    padding-top: 35px;
+}
+
+.escuela{
+    background-color:#706A5C ;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 25px;
+}
+
+.escuela p{
+    font-size: 20px;
+    font-family: 'Earth Orbiter Title';
+    text-align: center;    
+}
+
+.navegacion {
+    background-color: #9B9793;
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+}
+
+.navegacion ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion ol li {
+    display: inline-block;
+}
+
+.navegacion ol li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion ol li a:hover {
+    background-color: #800101;
+}
+
+.Acerca p{
+    font-size: 50px;
+}
+
+.Acerca p2{
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans MT';
+}
+p{
+    text-align: center;
+    font-family: 'Copperplate Gothic Light';
+}

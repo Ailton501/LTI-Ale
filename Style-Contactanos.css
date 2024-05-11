@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+h2{
+    color: white;
+}
+
+.banner{
+    background-color:#EAE3D8;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 40px;
+    font-family: 'Earth Orbiter Title';
+    padding-top: 35px;
+}
+
+.escuela{
+    background-color:#706A5C ;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 25px;
+}
+
+.escuela p{
+    font-size: 20px;
+    font-family: 'Earth Orbiter Title';
+    text-align: center;    
+}
+
+.navegacion {
+    background-color: #9B9793;
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+}
+
+.navegacion ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion ol li {
+    display: inline-block;
+}
+
+.navegacion ol li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion ol li a:hover {
+    background-color: #800101;
+}
+
+.card {
+    width: 400px;
+    aspect-ratio: 1 / 0.7;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+  }
+  .card .image-box {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+  .card .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .card:hover img {
+    filter: grayscale(1) brightness(0.4);
+  }
+  .card:hover::after {
+    opacity: 1;
+    inset: 20px;
+  }
+  
+  .content {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .content h2,
+  .content p {
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+  }
+  .content h2 {
+    margin-bottom: 12px;
+    scale: 0.7;
+  }
+  .content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #d1d1d1;
+    transform: translateY(50%);
+  }
+  .card:hover .content h2 {
+    scale: 1;
+    opacity: 1;
+  }
+  .card:hover .content P {
+    opacity: 1;
+    transform: translateY(0);
+  }
