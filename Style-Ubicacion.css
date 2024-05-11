@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .banner{
+    background-color:#EAE3D8;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 40px;
+    font-family: 'Earth Orbiter Title';
+    padding-top: 35px;
+}
+
+.escuela{
+    background-color:#706A5C ;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 25px;
+}
+
+.escuela p{
+    font-size: 20px;
+    font-family: 'Earth Orbiter Title';
+    text-align: center;    
+}
+
+.navegacion {
+    background-color: #9B9793;
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+}
+
+.navegacion ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion ol li {
+    display: inline-block;
+}
+
+.navegacion ol li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion ol li a:hover {
+    background-color: #800101;
+}    
+
+.contenedor {
+    display: flex; /* Establece un contenedor flexible */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme a lo largo del contenedor, dejando espacio entre ellos */
+    align-items: flex-start; /* Alinea los elementos al inicio del eje transversal (verticalmente en este caso) */
+}
+
+.mapa {
+    flex-basis: 50%; /* Establece el ancho inicial del elemento mapa en un 50% del contenedor flexible */
+}
+
+.mapa2 {
+    flex-basis: 45%; /* Establece el ancho inicial del elemento texto en un 45% del contenedor flexible */
+    padding: 0 20px; /* Agrega un relleno de 20 píxeles a la izquierda y a la derecha del elemento texto */
+    font-size: 25px;
+}
+
+.texto{
+    font-size: 20px;
+}
